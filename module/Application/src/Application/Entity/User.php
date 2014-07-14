@@ -14,4 +14,12 @@ class User {
     protected $fullName;
 
     // getters/setters
+
+    public function setFullName($fullName){
+        $this->fullName = $fullName;
+    }
+    
+    public function getId(){
+        return $this->id;
+    }
 }
